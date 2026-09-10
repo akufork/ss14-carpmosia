@@ -11839,14 +11839,22 @@ entities:
     - type: Transform
       parent: 2
       pos: 94.5,34.5
+    - type: Label
+      currentLabel: AI - Core
+    - type: NameModifier
+      baseName: APC
   - uid: 558
     components:
     - type: MetaData
-      name: Cargo Desk APC
+      name: APC (Cargo Desk)
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
       pos: 18.5,19.5
+    - type: Label
+      currentLabel: Cargo Desk
+    - type: NameModifier
+      baseName: APC
   - uid: 559
     components:
     - type: Transform
@@ -11855,33 +11863,49 @@ entities:
   - uid: 560
     components:
     - type: MetaData
-      name: Theatre APC
+      name: APC (Theatre)
     - type: Transform
       parent: 2
       pos: 21.5,-8.5
+    - type: Label
+      currentLabel: Theatre
+    - type: NameModifier
+      baseName: APC
   - uid: 561
     components:
     - type: MetaData
-      name: EVA Storage APC
+      name: APC (EVA Storage)
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 13.5,-7.5
+    - type: Label
+      currentLabel: EVA Storage
+    - type: NameModifier
+      baseName: APC
   - uid: 562
     components:
     - type: MetaData
-      name: Main Hall Central APC
+      name: APC (Main Hall Central)
     - type: Transform
       parent: 2
       pos: 23.5,2.5
+    - type: Label
+      currentLabel: Main Hall Central
+    - type: NameModifier
+      baseName: APC
   - uid: 563
     components:
     - type: MetaData
-      name: Exam APC
+      name: APC (Exam)
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 63.5,-7.5
+    - type: Label
+      currentLabel: Exam
+    - type: NameModifier
+      baseName: APC
   - uid: 564
     components:
     - type: MetaData
@@ -11890,14 +11914,22 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 42.5,44.5
+    - type: Label
+      currentLabel: Maints North
+    - type: NameModifier
+      baseName: APC
   - uid: 565
     components:
     - type: MetaData
-      name: Main Hall East APC
+      name: APC (Main Hall East)
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 43.5,6.5
+    - type: Label
+      currentLabel: Main Hall East
+    - type: NameModifier
+      baseName: APC
   - uid: 566
     components:
     - type: MetaData
@@ -11906,6 +11938,10 @@ entities:
       parent: 2
       rot: 1.5707963267948966 rad
       pos: 12.5,36.5
+    - type: Label
+      currentLabel: Bridge - Gravity Generator
+    - type: NameModifier
+      baseName: APC
   - uid: 567
     components:
     - type: MetaData
@@ -11913,21 +11949,33 @@ entities:
     - type: Transform
       parent: 2
       pos: 42.5,26.5
+    - type: Label
+      currentLabel: Sec - Warden
+    - type: NameModifier
+      baseName: APC
   - uid: 568
     components:
     - type: MetaData
-      name: TEG APC
+      name: APC (TEG)
     - type: Transform
       parent: 2
       pos: 37.5,-41.5
+    - type: Label
+      currentLabel: TEG
+    - type: NameModifier
+      baseName: APC
   - uid: 569
     components:
     - type: MetaData
-      name: Arrivals APC
+      name: APC (Arrivals)
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
       pos: -21.5,-3.5
+    - type: Label
+      currentLabel: Arrivals
+    - type: NameModifier
+      baseName: APC
   - uid: 570
     components:
     - type: MetaData
@@ -11936,6 +11984,10 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 52.5,29.5
+    - type: Label
+      currentLabel: Sec - East
+    - type: NameModifier
+      baseName: APC
   - uid: 571
     components:
     - type: MetaData
@@ -11944,6 +11996,10 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 18.5,-20.5
+    - type: Label
+      currentLabel: Engi - Telecomms
+    - type: NameModifier
+      baseName: APC
   - uid: 572
     components:
     - type: MetaData
@@ -11951,6 +12007,10 @@ entities:
     - type: Transform
       parent: 2
       pos: 38.5,32.5
+    - type: Label
+      currentLabel: Sec - Hallway West
+    - type: NameModifier
+      baseName: APC
   - uid: 573
     components:
     - type: MetaData
@@ -11959,6 +12019,10 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 30.5,36.5
+    - type: Label
+      currentLabel: North Hall
+    - type: NameModifier
+      baseName: APC
   - uid: 574
     components:
     - type: MetaData
@@ -11966,9 +12030,10 @@ entities:
     - type: Transform
       parent: 2
       pos: 72.5,24.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Engineering
+    - type: Label
+      currentLabel: AI - Access
+    - type: NameModifier
+      baseName: APC
   - uid: 575
     components:
     - type: MetaData
@@ -11977,6 +12042,10 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 40.5,-4.5
+    - type: Label
+      currentLabel: Service - Bar
+    - type: NameModifier
+      baseName: APC
   - uid: 576
     components:
     - type: MetaData
@@ -11984,17 +12053,22 @@ entities:
     - type: Transform
       parent: 2
       pos: 80.5,32.5
-    - type: AccessReader
-      accessListsOriginal:
-      - - Engineering
+    - type: Label
+      currentLabel: AI - Entrance
+    - type: NameModifier
+      baseName: APC
   - uid: 577
     components:
     - type: MetaData
-      name: Quartermaster APC
+      name: APC (Quartermaster)
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
       pos: 6.5,17.5
+    - type: Label
+      currentLabel: Quartermaster
+    - type: NameModifier
+      baseName: APC
   - uid: 578
     components:
     - type: MetaData
@@ -12003,6 +12077,10 @@ entities:
       parent: 2
       rot: 3.141592653589793 rad
       pos: 34.5,22.5
+    - type: Label
+      currentLabel: Sec - Brig
+    - type: NameModifier
+      baseName: APC
   - uid: 579
     components:
     - type: MetaData
@@ -12011,6 +12089,10 @@ entities:
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 65.5,22.5
+    - type: Label
+      currentLabel: Sci - XenoArch
+    - type: NameModifier
+      baseName: APC
   - uid: 580
     components:
     - type: Transform
@@ -12046,51 +12128,75 @@ entities:
   - uid: 584
     components:
     - type: MetaData
-      name: Disposals APC
+      name: APC (Disposals)
     - type: Transform
       parent: 2
       pos: 3.5,-27.5
+    - type: Label
+      currentLabel: Disposals
+    - type: NameModifier
+      baseName: APC
   - uid: 585
     components:
     - type: MetaData
-      name: Engineering Lockerroom APC
+      name: APC (Engi Lockers)
     - type: Transform
       parent: 2
       pos: 22.5,-29.5
+    - type: Label
+      currentLabel: Engi Lockers
+    - type: NameModifier
+      baseName: APC
   - uid: 586
     components:
     - type: MetaData
-      name: AME APC
+      name: APC (AME)
     - type: Transform
       parent: 2
       pos: 29.5,-37.5
+    - type: Label
+      currentLabel: AME
+    - type: NameModifier
+      baseName: APC
   - uid: 587
     components:
     - type: MetaData
-      name: APC (Service - Chapel)
+      name: APC (Chapel)
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
       pos: 33.5,8.5
+    - type: Label
+      currentLabel: Chapel
+    - type: NameModifier
+      baseName: APC
 - proto: APCHyperCapacity
   entities:
   - uid: 588
     components:
     - type: MetaData
-      name: APC (Supply - Cargo Bay)
+      name: APC (Cargo Bay)
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
       pos: 10.5,20.5
+    - type: Label
+      currentLabel: Cargo Bay
+    - type: NameModifier
+      baseName: APC
 - proto: APCSuperCapacity
   entities:
   - uid: 589
     components:
     - type: MetaData
-      name: Atmos APC
+      name: APC (Atmos)
     - type: Transform
       parent: 2
       pos: 36.5,-21.5
+    - type: Label
+      currentLabel: Atmos
+    - type: NameModifier
+      baseName: APC
 - proto: ArrivalsShuttleTimer
   entities:
   - uid: 590
