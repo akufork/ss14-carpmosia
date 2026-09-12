@@ -7328,7 +7328,11 @@ entities:
   - uid: 342
     components:
     - type: MetaData
-      name: Detective's Quarters APC
+      name: APC (Detective's Quarters)
+    - type: Label
+      currentLabel: Detective's Quarters
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
@@ -7342,7 +7346,11 @@ entities:
   - uid: 343
     components:
     - type: MetaData
-      name: Bathroom APC
+      name: APC (Bathroom)
+    - type: Label
+      currentLabel: Bathroom
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: 1.5707963267948966 rad
@@ -7356,7 +7364,11 @@ entities:
   - uid: 344
     components:
     - type: MetaData
-      name: Chapel APC
+      name: APC (Chapel)
+    - type: Label
+      currentLabel: Chapel
+    - type: NameModifier
+      baseName: APC
       desc: '"And the Engineer said, let there be light"'
     - type: Transform
       parent: 2
@@ -7368,7 +7380,11 @@ entities:
   - uid: 345
     components:
     - type: MetaData
-      name: Arrivals APC
+      name: APC (Arrivals)
+    - type: Label
+      currentLabel: Arrivals
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
@@ -7395,7 +7411,11 @@ entities:
   - uid: 347
     components:
     - type: MetaData
-      name: EVA APC
+      name: APC (EVA)
+    - type: Label
+      currentLabel: EVA
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
@@ -7409,7 +7429,11 @@ entities:
   - uid: 348
     components:
     - type: MetaData
-      name: Cargo APC
+      name: APC (Cargo)
+    - type: Label
+      currentLabel: Cargo
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
@@ -7423,7 +7447,11 @@ entities:
   - uid: 349
     components:
     - type: MetaData
-      name: Salvage APC
+      name: APC (Salvage)
+    - type: Label
+      currentLabel: Salvage
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
@@ -7437,7 +7465,11 @@ entities:
   - uid: 350
     components:
     - type: MetaData
-      name: CE's Quarters APC
+      name: APC (CE's Quarters)
+    - type: Label
+      currentLabel: CE's Quarters
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
@@ -7451,7 +7483,11 @@ entities:
   - uid: 351
     components:
     - type: MetaData
-      name: Cryo and Operating Theatre APC
+      name: APC (Cryo and Operating Theatre)
+    - type: Label
+      currentLabel: Cryo and Operating Theatre
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       pos: 53.5,75.5
@@ -7464,7 +7500,11 @@ entities:
   - uid: 352
     components:
     - type: MetaData
-      name: Library and Disposals APC
+      name: APC (Library and Disposals)
+    - type: Label
+      currentLabel: Library and Disposals
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
@@ -7478,7 +7518,11 @@ entities:
   - uid: 353
     components:
     - type: MetaData
-      name: Primary Hallway APC
+      name: APC (Primary Hallway)
+    - type: Label
+      currentLabel: Primary Hallway
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       pos: 72.5,84.5
@@ -7488,7 +7532,11 @@ entities:
   - uid: 354
     components:
     - type: MetaData
-      name: North  Thruster APC
+      name: APC (North  Thruster)
+    - type: Label
+      currentLabel: North  Thruster
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: 1.5707963267948966 rad
@@ -7499,7 +7547,11 @@ entities:
   - uid: 355
     components:
     - type: MetaData
-      name: Genpop APC
+      name: APC (Genpop)
+    - type: Label
+      currentLabel: Genpop
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
@@ -7510,7 +7562,11 @@ entities:
   - uid: 356
     components:
     - type: MetaData
-      name: Cargo Breakroom APC
+      name: APC (Cargo Breakroom)
+    - type: Label
+      currentLabel: Cargo Breakroom
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       pos: 73.5,57.5
@@ -7520,7 +7576,11 @@ entities:
   - uid: 357
     components:
     - type: MetaData
-      name: Evac APC
+      name: APC (Evac)
+    - type: Label
+      currentLabel: Evac
+    - type: NameModifier
+      baseName: APC
       desc: APCee you later!
     - type: Transform
       parent: 2
@@ -7531,7 +7591,11 @@ entities:
   - uid: 358
     components:
     - type: MetaData
-      name: QM's Room APC
+      name: APC (QM's Room)
+    - type: Label
+      currentLabel: QM's Room
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
@@ -7542,7 +7606,11 @@ entities:
   - uid: 359
     components:
     - type: MetaData
-      name: HoS' Room APC
+      name: APC (HoS' Room)
+    - type: Label
+      currentLabel: HoS' Room
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
@@ -7550,7 +7618,11 @@ entities:
   - uid: 360
     components:
     - type: MetaData
-      name: Gravity APC
+      name: APC (Gravity)
+    - type: Label
+      currentLabel: Gravity
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
@@ -7558,7 +7630,11 @@ entities:
   - uid: 361
     components:
     - type: MetaData
-      name: West Solars APC
+      name: APC (West Solars)
+    - type: Label
+      currentLabel: West Solars
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
@@ -7569,7 +7645,11 @@ entities:
   - uid: 362
     components:
     - type: MetaData
-      name: Engineering Front APC
+      name: APC (Engineering Front)
+    - type: Label
+      currentLabel: Engineering Front
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
@@ -7580,7 +7660,11 @@ entities:
   - uid: 363
     components:
     - type: MetaData
-      name: Virology APC
+      name: APC (Virology)
+    - type: Label
+      currentLabel: Virology
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: 1.5707963267948966 rad
@@ -7593,7 +7677,11 @@ entities:
   - uid: 364
     components:
     - type: MetaData
-      name: Bar Social Area APC
+      name: APC (Bar Social Area)
+    - type: Label
+      currentLabel: Bar Social Area
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
@@ -7601,7 +7689,11 @@ entities:
   - uid: 365
     components:
     - type: MetaData
-      name: Captain's Quarters APC
+      name: APC (Captain's Quarters)
+    - type: Label
+      currentLabel: Captain's Quarters
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
@@ -7612,7 +7704,11 @@ entities:
   - uid: 366
     components:
     - type: MetaData
-      name: Hydroponics APC
+      name: APC (Hydroponics)
+    - type: Label
+      currentLabel: Hydroponics
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
@@ -7620,14 +7716,22 @@ entities:
   - uid: 367
     components:
     - type: MetaData
-      name: HoP's Room APC
+      name: APC (HoP's Room)
+    - type: Label
+      currentLabel: HoP's Room
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       pos: 67.5,95.5
   - uid: 368
     components:
     - type: MetaData
-      name: Docking Arm APC
+      name: APC (Docking Arm)
+    - type: Label
+      currentLabel: Docking Arm
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
@@ -7638,7 +7742,11 @@ entities:
   - uid: 369
     components:
     - type: MetaData
-      name: Entirely Legal Boxing Arena APC
+      name: APC (Entirely Legal Boxing Arena)
+    - type: Label
+      currentLabel: Entirely Legal Boxing Arena
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
@@ -7646,7 +7754,11 @@ entities:
   - uid: 370
     components:
     - type: MetaData
-      name: CMO's Room APC
+      name: APC (CMO's Room)
+    - type: Label
+      currentLabel: CMO's Room
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
@@ -7654,7 +7766,11 @@ entities:
   - uid: 371
     components:
     - type: MetaData
-      name: Cryosleep APC
+      name: APC (Cryosleep)
+    - type: Label
+      currentLabel: Cryosleep
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
@@ -7665,7 +7781,11 @@ entities:
   - uid: 372
     components:
     - type: MetaData
-      name: Vault APC
+      name: APC (Vault)
+    - type: Label
+      currentLabel: Vault
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
@@ -7676,7 +7796,11 @@ entities:
   - uid: 373
     components:
     - type: MetaData
-      name: Chemistry and Morgue APC
+      name: APC (Chemistry and Morgue)
+    - type: Label
+      currentLabel: Chemistry and Morgue
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
@@ -7684,7 +7808,11 @@ entities:
   - uid: 374
     components:
     - type: MetaData
-      name: Armoury APC
+      name: APC (Armoury)
+    - type: Label
+      currentLabel: Armoury
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: 1.5707963267948966 rad
@@ -7695,7 +7823,11 @@ entities:
   - uid: 375
     components:
     - type: MetaData
-      name: Medical APC
+      name: APC (Medical)
+    - type: Label
+      currentLabel: Medical
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
@@ -7706,7 +7838,11 @@ entities:
   - uid: 376
     components:
     - type: MetaData
-      name: Comms Servers APC
+      name: APC (Comms Servers)
+    - type: Label
+      currentLabel: Comms Servers
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
@@ -7717,7 +7853,11 @@ entities:
   - uid: 377
     components:
     - type: MetaData
-      name: Data Centre APC
+      name: APC (Data Centre)
+    - type: Label
+      currentLabel: Data Centre
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
@@ -7728,7 +7868,11 @@ entities:
   - uid: 378
     components:
     - type: MetaData
-      name: Security Breakroom APC
+      name: APC (Security Breakroom)
+    - type: Label
+      currentLabel: Security Breakroom
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
@@ -7739,7 +7883,11 @@ entities:
   - uid: 379
     components:
     - type: MetaData
-      name: AME APC
+      name: APC (AME)
+    - type: Label
+      currentLabel: AME
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       pos: 79.5,24.5
@@ -7760,7 +7908,11 @@ entities:
   - uid: 381
     components:
     - type: MetaData
-      name: East Thruster APC
+      name: APC (East Thruster)
+    - type: Label
+      currentLabel: East Thruster
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
@@ -7804,7 +7956,11 @@ entities:
   - uid: 385
     components:
     - type: MetaData
-      name: Hazardous Testing Lab APC
+      name: APC (Hazardous Testing Lab)
+    - type: Label
+      currentLabel: Hazardous Testing Lab
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       pos: 87.5,101.5
@@ -7814,7 +7970,11 @@ entities:
   - uid: 386
     components:
     - type: MetaData
-      name: Kitchen APC
+      name: APC (Kitchen)
+    - type: Label
+      currentLabel: Kitchen
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
@@ -7827,7 +7987,11 @@ entities:
   - uid: 387
     components:
     - type: MetaData
-      name: RD's Room APC
+      name: APC (RD's Room)
+    - type: Label
+      currentLabel: RD's Room
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
@@ -7835,14 +7999,22 @@ entities:
   - uid: 388
     components:
     - type: MetaData
-      name: AI Core APC
+      name: APC (AI Core)
+    - type: Label
+      currentLabel: AI Core
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       pos: 47.5,31.5
   - uid: 389
     components:
     - type: MetaData
-      name: Power APC
+      name: APC (Power)
+    - type: Label
+      currentLabel: Power
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: 1.5707963267948966 rad
@@ -7856,7 +8028,11 @@ entities:
   - uid: 390
     components:
     - type: MetaData
-      name: Science APC
+      name: APC (Science)
+    - type: Label
+      currentLabel: Science
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: -1.5707963267948966 rad
@@ -7870,7 +8046,11 @@ entities:
   - uid: 391
     components:
     - type: MetaData
-      name: Bridge APC
+      name: APC (Bridge)
+    - type: Label
+      currentLabel: Bridge
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
@@ -7878,7 +8058,11 @@ entities:
   - uid: 392
     components:
     - type: MetaData
-      name: Xenoarcheology APC
+      name: APC (Xenoarcheology)
+    - type: Label
+      currentLabel: Xenoarcheology
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       rot: 3.141592653589793 rad
@@ -7886,7 +8070,11 @@ entities:
   - uid: 393
     components:
     - type: MetaData
-      name: Robotics APC
+      name: APC (Robotics)
+    - type: Label
+      currentLabel: Robotics
+    - type: NameModifier
+      baseName: APC
     - type: Transform
       parent: 2
       pos: 71.5,102.5
