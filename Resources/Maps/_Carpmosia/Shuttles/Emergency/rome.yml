@@ -2406,8 +2406,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 131
-      configurators:
-      - invalid
   - uid: 18998
     components:
     - type: Transform
@@ -2417,8 +2415,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 131
-      configurators:
-      - invalid
 - proto: GasVentPumpInlineDistro
   entities:
   - uid: 149
@@ -2430,8 +2426,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 131
-      configurators:
-      - invalid
   - uid: 150
     components:
     - type: Transform
@@ -2441,8 +2435,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 131
-      configurators:
-      - invalid
   - uid: 165
     components:
     - type: Transform
@@ -2452,8 +2444,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 131
-      configurators:
-      - invalid
   - uid: 171
     components:
     - type: Transform
@@ -2463,8 +2453,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 131
-      configurators:
-      - invalid
   - uid: 202
     components:
     - type: Transform
@@ -2474,8 +2462,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 131
-      configurators:
-      - invalid
   - uid: 217
     components:
     - type: Transform
@@ -2485,8 +2471,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 131
-      configurators:
-      - invalid
 - proto: GasVentScrubberInlineWaste
   entities:
   - uid: 164
@@ -2498,8 +2482,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 131
-      configurators:
-      - invalid
   - uid: 169
     components:
     - type: Transform
@@ -2509,8 +2491,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 131
-      configurators:
-      - invalid
   - uid: 172
     components:
     - type: Transform
@@ -2520,8 +2500,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 131
-      configurators:
-      - invalid
   - uid: 173
     components:
     - type: Transform
@@ -2531,8 +2509,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 131
-      configurators:
-      - invalid
   - uid: 199
     components:
     - type: Transform
@@ -2542,8 +2518,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 131
-      configurators:
-      - invalid
   - uid: 201
     components:
     - type: Transform
@@ -2553,8 +2527,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 131
-      configurators:
-      - invalid
   - uid: 203
     components:
     - type: Transform
@@ -2564,8 +2536,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 131
-      configurators:
-      - invalid
 - proto: GasVentScrubberWaste
   entities:
   - uid: 19002
@@ -2576,8 +2546,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 131
-      configurators:
-      - invalid
 - proto: GeneratorWallmountAPU
   entities:
   - uid: 129
