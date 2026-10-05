@@ -4,8 +4,8 @@ meta:
   engineVersion: 283.1.3
   forkId: carpmosia
   forkVersion: ""
-  time: 09/03/2026 12:26:22
-  entityCount: 473
+  time: 10/05/2026 16:51:55
+  entityCount: 474
 maps: []
 grids:
 - 1
@@ -46,7 +46,7 @@ entities:
           version: 7
         0,-1:
           ind: 0,-1
-          tiles: AgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAGAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAACgAAAAAAAAgAAAAAAQAIAAAAAAEACAAAAAAAAAoAAAAAAAAKAAAAAAAAAQAAAAAAAAYAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAsAAAAAAAAIAAAAAAIACAAAAAADAAgAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAALAAAAAAAACAAAAAACAAgAAAAAAgAIAAAAAAAAAQAAAAAAAAAAAAAAAgAAAAAAAAMAAQAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAQAAAAAAAAMAAAAAAgABAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACAAMAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAA==
+          tiles: AgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAAGAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAACgAAAAAAAAgAAAAAAQAIAAAAAAEACAAAAAAAAAoAAAAAAAAKAAAAAAAAAQAAAAAAAAYAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAoAAAAAAAAIAAAAAAIACAAAAAADAAgAAAAAAAABAAAAAAAAAQAAAAAAAAEAAAAAAAABAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAAKAAAAAAAACAAAAAACAAgAAAAAAgAIAAAAAAAAAQAAAAAAAAAAAAAAAgAAAAAAAAMAAQAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAQAAAAAAAAMAAAAAAgABAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACAAMAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAAIAAAAAAAACAAAAAAAAAgAAAAAAAA==
           version: 7
         -1,-1:
           ind: -1,-1
@@ -417,55 +417,119 @@ entities:
   entities:
   - uid: 467
     components:
+    - type: MetaData
+      name: air alarm (Mid Dock)
     - type: Transform
       parent: 1
       rot: -1.5707963267948966 rad
       pos: 1.5,5.5
+    - type: DeviceList
+      devices:
+      - 261
+      - 224
+    - type: Label
+      currentLabel: Mid Dock
+    - type: NameModifier
+      baseName: air alarm
   - uid: 468
     components:
+    - type: MetaData
+      name: air alarm (North East Dock)
     - type: Transform
       parent: 1
       pos: 2.5,9.5
+    - type: DeviceList
+      devices:
+      - 248
+      - 232
+      - 227
+      - 262
+    - type: Label
+      currentLabel: North East Dock
+    - type: NameModifier
+      baseName: air alarm
   - uid: 469
     components:
+    - type: MetaData
+      name: air alarm (Security)
     - type: Transform
       parent: 1
       rot: -1.5707963267948966 rad
       pos: 7.5,8.5
+    - type: DeviceList
+      devices:
+      - 221
+      - 257
+      - 234
+      - 229
+    - type: Label
+      currentLabel: Security
+    - type: NameModifier
+      baseName: air alarm
   - uid: 470
     components:
+    - type: MetaData
+      name: air alarm (East Dock)
     - type: Transform
       parent: 1
       rot: 1.5707963267948966 rad
       pos: 4.5,-0.5
+    - type: DeviceList
+      devices:
+      - 235
+      - 250
+    - type: Label
+      currentLabel: East Dock
+    - type: NameModifier
+      baseName: air alarm
   - uid: 471
     components:
+    - type: MetaData
+      name: air alarm (South West Dock)
     - type: Transform
       parent: 1
       rot: -1.5707963267948966 rad
       pos: -0.5,-1.5
+    - type: DeviceList
+      devices:
+      - 231
+      - 230
+    - type: Label
+      currentLabel: South West Dock
+    - type: NameModifier
+      baseName: air alarm
   - uid: 472
     components:
+    - type: MetaData
+      name: air alarm (Engineering)
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
       pos: 0.5,-4.5
+    - type: DeviceList
+      devices:
+      - 13
+      - 2
+    - type: Label
+      currentLabel: Engineering
+    - type: NameModifier
+      baseName: air alarm
   - uid: 473
     components:
+    - type: MetaData
+      name: air alarm (Medbay)
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
       pos: 2.5,2.5
-- proto: AirCanister
-  entities:
-  - uid: 2
-    components:
-    - type: Transform
-      parent: 1
-      pos: 0.5,-3.5
-      anchored: True
-    - type: Physics
-      bodyType: Static
+    - type: DeviceList
+      devices:
+      - 246
+      - 249
+    - type: Label
+      currentLabel: Medbay
+    - type: NameModifier
+      baseName: air alarm
 - proto: AirlockCommandLocked
   entities:
   - uid: 3
@@ -532,43 +596,66 @@ entities:
     - type: Transform
       parent: 1
       pos: 4.5,8.5
-- proto: AirSensor
-  entities:
-  - uid: 13
-    components:
-    - type: Transform
-      parent: 1
-      pos: 0.5,10.5
 - proto: APCBasic
   entities:
   - uid: 14
     components:
+    - type: MetaData
+      name: APC (Medbay)
     - type: Transform
       parent: 1
       pos: 5.5,6.5
+    - type: Label
+      currentLabel: Medbay
+    - type: NameModifier
+      baseName: APC
   - uid: 15
     components:
+    - type: MetaData
+      name: APC (Command)
     - type: Transform
       parent: 1
       rot: 1.5707963267948966 rad
       pos: -0.5,11.5
+    - type: Label
+      currentLabel: Command
+    - type: NameModifier
+      baseName: APC
   - uid: 16
     components:
+    - type: MetaData
+      name: APC (Engineering)
     - type: Transform
       parent: 1
       pos: 3.5,-0.5
+    - type: Label
+      currentLabel: Engineering
+    - type: NameModifier
+      baseName: APC
   - uid: 17
     components:
+    - type: MetaData
+      name: APC (Main Area)
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
       pos: -0.5,-0.5
+    - type: Label
+      currentLabel: Main Area
+    - type: NameModifier
+      baseName: APC
   - uid: 18
     components:
+    - type: MetaData
+      name: APC (Security)
     - type: Transform
       parent: 1
       rot: -1.5707963267948966 rad
       pos: 7.5,9.5
+    - type: Label
+      currentLabel: Security
+    - type: NameModifier
+      baseName: APC
 - proto: AtmosDeviceFanDirectional
   entities:
   - uid: 19
@@ -1730,19 +1817,14 @@ entities:
       canCollide: False
     - type: InsideEntityStorage
       storage: 181
-- proto: GasPassiveVent
+- proto: GasPassiveVentWaste
   entities:
-  - uid: 218
+  - uid: 474
     components:
     - type: Transform
       parent: 1
-      pos: 0.5,-2.5
-  - uid: 219
-    components:
-    - type: Transform
-      parent: 1
-      rot: 1.5707963267948966 rad
-      pos: 0.5,-1.5
+      rot: -1.5707963267948966 rad
+      pos: 7.5,3.5
 - proto: GasPipeBendDistro
   entities:
   - uid: 225
@@ -1932,6 +2014,12 @@ entities:
       parent: 1
       rot: -1.5707963267948966 rad
       pos: 3.5,8.5
+  - uid: 254
+    components:
+    - type: Transform
+      parent: 1
+      rot: -1.5707963267948966 rad
+      pos: 5.5,3.5
   - uid: 260
     components:
     - type: Transform
@@ -2011,7 +2099,8 @@ entities:
     components:
     - type: Transform
       parent: 1
-      pos: 4.5,3.5
+      rot: -1.5707963267948966 rad
+      pos: 6.5,3.5
   - uid: 466
     components:
     - type: Transform
@@ -2019,6 +2108,12 @@ entities:
       pos: 4.5,2.5
 - proto: GasPipeTJunctionDistro
   entities:
+  - uid: 218
+    components:
+    - type: Transform
+      parent: 1
+      rot: -1.5707963267948966 rad
+      pos: 1.5,-1.5
   - uid: 220
     components:
     - type: Transform
@@ -2042,8 +2137,20 @@ entities:
       parent: 1
       rot: 3.141592653589793 rad
       pos: 1.5,8.5
+  - uid: 295
+    components:
+    - type: Transform
+      parent: 1
+      rot: -1.5707963267948966 rad
+      pos: 1.5,-2.5
 - proto: GasPipeTJunctionWaste
   entities:
+  - uid: 219
+    components:
+    - type: Transform
+      parent: 1
+      rot: 1.5707963267948966 rad
+      pos: 4.5,3.5
   - uid: 442
     components:
     - type: Transform
@@ -2072,43 +2179,73 @@ entities:
     - type: Transform
       parent: 1
       pos: 1.5,1.5
-- proto: GasPort
+- proto: GasPortDistro
   entities:
-  - uid: 254
+  - uid: 294
+    components:
+    - type: Transform
+      parent: 1
+      rot: 1.5707963267948966 rad
+      pos: 0.5,-2.5
+  - uid: 296
+    components:
+    - type: Transform
+      parent: 1
+      rot: 1.5707963267948966 rad
+      pos: 0.5,-1.5
+- proto: GasVentPumpDistro
+  entities:
+  - uid: 13
     components:
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
-      pos: 0.5,-3.5
-- proto: GasVentPumpDistro
-  entities:
+      pos: 1.5,-3.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 472
   - uid: 227
     components:
     - type: Transform
       parent: 1
       pos: 1.5,10.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 468
   - uid: 231
     components:
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
       pos: -1.5,-0.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 471
   - uid: 234
     components:
     - type: Transform
       parent: 1
       pos: 5.5,11.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 469
   - uid: 235
     components:
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
       pos: 5.5,-0.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 470
   - uid: 249
     components:
     - type: Transform
       parent: 1
       pos: 4.5,4.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 473
 - proto: GasVentPumpInlineDistro
   entities:
   - uid: 221
@@ -2116,17 +2253,26 @@ entities:
     - type: Transform
       parent: 1
       pos: 5.5,9.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 469
   - uid: 224
     components:
     - type: Transform
       parent: 1
       pos: -0.5,5.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 467
   - uid: 232
     components:
     - type: Transform
       parent: 1
       rot: -1.5707963267948966 rad
       pos: 2.5,8.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 468
 - proto: GasVentScrubberInlineWaste
   entities:
   - uid: 257
@@ -2134,47 +2280,80 @@ entities:
     - type: Transform
       parent: 1
       pos: 5.5,10.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 469
   - uid: 261
     components:
     - type: Transform
       parent: 1
       pos: -0.5,3.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 467
 - proto: GasVentScrubberWaste
   entities:
+  - uid: 2
+    components:
+    - type: Transform
+      parent: 1
+      rot: 3.141592653589793 rad
+      pos: 1.5,-1.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 472
   - uid: 229
     components:
     - type: Transform
       parent: 1
       pos: 5.5,12.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 469
   - uid: 230
     components:
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
       pos: -1.5,0.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 471
   - uid: 246
     components:
     - type: Transform
       parent: 1
       rot: 1.5707963267948966 rad
       pos: 3.5,4.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 473
   - uid: 248
     components:
     - type: Transform
       parent: 1
       rot: 1.5707963267948966 rad
       pos: -1.5,8.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 468
   - uid: 250
     components:
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
       pos: 5.5,0.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 470
   - uid: 262
     components:
     - type: Transform
       parent: 1
       pos: 1.5,11.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 468
 - proto: GeneratorBasic15kW
   entities:
   - uid: 263
@@ -2360,25 +2539,6 @@ entities:
     - type: Transform
       parent: 1
       pos: 2.60989,3.8853168
-- proto: PlasmaReinforcedWindowDirectional
-  entities:
-  - uid: 294
-    components:
-    - type: Transform
-      parent: 1
-      rot: 1.5707963267948966 rad
-      pos: 0.5,-2.5
-  - uid: 295
-    components:
-    - type: Transform
-      parent: 1
-      rot: 1.5707963267948966 rad
-      pos: 0.5,-1.5
-  - uid: 296
-    components:
-    - type: Transform
-      parent: 1
-      pos: 0.5,-2.5
 - proto: PowerCellMedium
   entities:
   - uid: 297
@@ -2601,6 +2761,8 @@ entities:
   entities:
   - uid: 334
     components:
+    - type: MetaData
+      name: signal button (Shutters)
     - type: Transform
       parent: 1
       rot: -1.5707963267948966 rad
@@ -2616,8 +2778,14 @@ entities:
         29:
         - - Pressed
           - Toggle
+    - type: Label
+      currentLabel: Shutters
+    - type: NameModifier
+      baseName: signal button
   - uid: 335
     components:
+    - type: MetaData
+      name: signal button (Shutters)
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
@@ -2633,6 +2801,10 @@ entities:
         32:
         - - Pressed
           - Toggle
+    - type: Label
+      currentLabel: Shutters
+    - type: NameModifier
+      baseName: signal button
 - proto: SignBridge
   entities:
   - uid: 336
@@ -2674,9 +2846,15 @@ entities:
   entities:
   - uid: 341
     components:
+    - type: MetaData
+      name: SMES (Shuttle)
     - type: Transform
       parent: 1
       pos: 3.5,-1.5
+    - type: Label
+      currentLabel: Shuttle
+    - type: NameModifier
+      baseName: SMES
 - proto: StasisBed
   entities:
   - uid: 342
@@ -2688,9 +2866,15 @@ entities:
   entities:
   - uid: 343
     components:
+    - type: MetaData
+      name: wallmount substation (Shuttle)
     - type: Transform
       parent: 1
       pos: 2.5,-0.5
+    - type: Label
+      currentLabel: Shuttle
+    - type: NameModifier
+      baseName: wallmount substation
 - proto: Table
   entities:
   - uid: 344
