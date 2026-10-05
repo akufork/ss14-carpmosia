@@ -30,6 +30,7 @@
             min: 1
             max: 2
   - type: IconSmooth
+    key: window_plasma # Carpmosia-edit - Respritening
     base: rpwindow
   - type: Construction
     graph: Window
@@ -139,7 +140,7 @@
     - Window
   - type: IconSmooth
     mode: DiagonalPlus # Carpmosia-edit - Better diagonals
-    key: plasma # Carpmosia-edit - Respritening
+    key: window_plasma # Carpmosia-edit - Respritening
     base: state
   - type: Icon
     sprite: Structures/Windows/window-diagonal-plasma-reinf.rsi

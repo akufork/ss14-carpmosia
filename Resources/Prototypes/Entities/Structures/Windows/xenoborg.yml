@@ -10,5 +10,5 @@
     sprite: Structures/Windows/exo-resin-borg.rsi
     state: full
   - type: IconSmooth
-    key: walls
+    key: window_xenoborg # Carpmosia-edit - Respritening
     base: xenoborg

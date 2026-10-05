@@ -9,7 +9,7 @@
   - type: Icon
     sprite: Structures/Walls/malign.rsi
   - type: IconSmooth
-    key: malign # Carpmosia-edit - Respritening
+    key: wall_malign # Carpmosia-edit - Respritening
     base: malign
   - type: RadiationBlocker
     resistance: 9

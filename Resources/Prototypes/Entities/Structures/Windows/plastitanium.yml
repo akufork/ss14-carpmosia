@@ -65,7 +65,7 @@
     sprite: Structures/Windows/window-plastitanium.rsi
     state: full
   - type: IconSmooth
-    key: plastitanium # Carpmosia-edit - Respritening
+    key: window_plastitanium # Carpmosia-edit - Respritening
     base: ptwindow
   - type: Airtight
   - type: Fixtures
@@ -146,7 +146,7 @@
     state: state0
   - type: IconSmooth
     mode: DiagonalPlus # Carpmosia-edit - Better diagonals
-    key: plastitanium # Carpmosia-edit - Respritening
+    key: window_plastitanium # Carpmosia-edit - Respritening
     base: state
   - type: Fixtures
     fixtures:

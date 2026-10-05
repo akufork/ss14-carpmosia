@@ -28,6 +28,7 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: IconSmooth
+    key: window_malign # Carpmosia-edit - Respritening
     base: malign
   - type: Appearance
   - type: DamageVisuals
