@@ -26,8 +26,6 @@ public sealed partial class MapRulesTest : GameTest
        "/Maps/_Carpmosia/packed.yml",
        "/Maps/_Carpmosia/saltern.yml",
        "/Maps/_Carpmosia/sparks.yml",
-       // Shuttles pending fixes
-       "/Maps/_Carpmosia/Shuttles/Event/ert_mixed.yml",
     ];
 
     private static readonly ResPath[] TestScope = [.. GameDataScrounger.FilesInDirectoryInVfs("/Maps/_Carpmosia", "*.yml", true).Where(x => !Exceptions.Any(y => x.ToString().StartsWith(y)))];
