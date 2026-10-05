@@ -706,7 +706,7 @@
       layers:
       - sprite: !type:CreateVariants # Carpmosia-edit - 5 pipe layers
           values: [ Structures/Piping/Atmospherics/pipe.rsi, Structures/Piping/Atmospherics/pipe_alt1.rsi, Structures/Piping/Atmospherics/pipe_alt2.rsi, _Carpmosia/Structures/Piping/Atmospherics/pipe_alt3.rsi, _Carpmosia/Structures/Piping/Atmospherics/pipe_alt4.rsi ] # Carpmosia-edit - 5 pipe layers
-        state: pipeBendConnectors
+        state: pipeBendConnectors # Carpmosia-edit - Heat exchanger layers
         map: [ "enum.PipeVisualLayers.Pipe" ]
       - state: heBend
         map: [ "enum.SubfloorLayers.FirstLayer" ]
