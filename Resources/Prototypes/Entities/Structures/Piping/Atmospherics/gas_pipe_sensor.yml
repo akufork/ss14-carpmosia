@@ -11,13 +11,13 @@
   components:
   - type: Sprite
     sprite: !type:CreateVariants
-       values: 
+       values:
        - Structures/Piping/Atmospherics/gas_pipe_sensor.rsi
        - Structures/Piping/Atmospherics/gas_pipe_sensor_alt1.rsi
        - Structures/Piping/Atmospherics/gas_pipe_sensor_alt2.rsi
        # Carpmosia-start - 5 pipe layers
-       - _Carpmosia/Structures/Piping/Atmospherics/gas_pipe_sensor_alt1.rsi
-       - _Carpmosia/Structures/Piping/Atmospherics/gas_pipe_sensor_alt2.rsi
+       - _Carpmosia/Structures/Piping/Atmospherics/gas_pipe_sensor_alt3.rsi
+       - _Carpmosia/Structures/Piping/Atmospherics/gas_pipe_sensor_alt4.rsi
        # Carpmosia-end - 5 pipe layers
     drawdepth: BelowFloor
     layers:

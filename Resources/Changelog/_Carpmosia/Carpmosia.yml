@@ -2726,4 +2726,34 @@
   id: 399
   time: '2026-08-24T09:40:00.0000000+00:00'
   url: https://github.com/carpmosia/carpmosia/pull/602
+- author: Atakku
+  changes:
+  - message: Disposal units now automatically tag all items as "trash"
+    type: Tweak
+  id: 400
+  time: '2026-08-31T10:17:54.0000000+00:00'
+  url: https://github.com/carpmosia/carpmosia/pull/605
+- author: wavesneglected
+  changes:
+  - message: Changed the handcuff delay to be 7 seconds instead of the previous 3
+      seconds.
+    type: Tweak
+  id: 401
+  time: '2026-09-27T12:17:56.0000000+00:00'
+  url: https://github.com/carpmosia/carpmosia/pull/626
+- author: Atakku
+  changes:
+  - message: Added "Lexorin" lobby art by Safireeye
+    type: Add
+  id: 402
+  time: '2026-10-05T16:10:35.0000000+00:00'
+  url: https://github.com/carpmosia/carpmosia/pull/630
+- author: Atakku
+  changes:
+  - message: All emergency and ERT shuttles as well as the salvage's reclaimer got
+      cleaned up
+    type: Tweak
+  id: 403
+  time: '2026-10-05T18:23:03.0000000+00:00'
+  url: https://github.com/carpmosia/carpmosia/pull/613
 Order: -1
