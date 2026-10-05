@@ -25,9 +25,9 @@
   source: "https://github.com/space-wizards/space-station-14/pull/21711"
 # Carpmosia-end - Respritening
 
-- files: ["lino.png"]
+- files: [ "foammetal.png", "lino.png" ] # Carpmosia-edit - Respritening
   license: "CC-BY-SA-3.0"
-  copyright: "vgstation13 at roughly commit e4d3ea7f69d21c3667be12b114fa935c4640cb05. Modified by AftrLite (GitHub)."
+  copyright: "vgstation13 at roughly commit e4d3ea7f69d21c3667be12b114fa935c4640cb05. lino.png modified by AftrLite (GitHub)." # Carpmosia-edit - Respritening
   source: "https://github.com/vgstation-coders/vgstation13"
 
 - files: ["arcadeblue.png", "arcadered.png"]
