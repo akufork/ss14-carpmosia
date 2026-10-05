@@ -4,7 +4,7 @@ meta:
   engineVersion: 283.1.3
   forkId: carpmosia
   forkVersion: ""
-  time: 09/03/2026 10:21:13
+  time: 10/05/2026 16:32:00
   entityCount: 816
 maps: []
 grids:
@@ -431,6 +431,8 @@ entities:
   entities:
   - uid: 2
     components:
+    - type: MetaData
+      name: air alarm (Bar)
     - type: Transform
       parent: 1
       rot: 1.5707963267948966 rad
@@ -446,14 +448,31 @@ entities:
       - 451
       - 598
       - 597
+    - type: Label
+      currentLabel: Bar
+    - type: NameModifier
+      baseName: air alarm
   - uid: 3
     components:
+    - type: MetaData
+      name: air alarm (Engineering)
     - type: Transform
       parent: 1
       rot: 1.5707963267948966 rad
       pos: -4.5,-9.5
+    - type: DeviceList
+      devices:
+      - 241
+      - 320
+      - 453
+    - type: Label
+      currentLabel: Engineering
+    - type: NameModifier
+      baseName: air alarm
   - uid: 5
     components:
+    - type: MetaData
+      name: air alarm (Medbay)
     - type: Transform
       parent: 1
       rot: -1.5707963267948966 rad
@@ -463,8 +482,15 @@ entities:
       - 403
       - 499
       - 503
+      - 376
+    - type: Label
+      currentLabel: Medbay
+    - type: NameModifier
+      baseName: air alarm
   - uid: 6
     components:
+    - type: MetaData
+      name: air alarm (Security)
     - type: Transform
       parent: 1
       rot: -1.5707963267948966 rad
@@ -472,8 +498,16 @@ entities:
     - type: DeviceList
       devices:
       - 504
+      - 610
+      - 425
+    - type: Label
+      currentLabel: Security
+    - type: NameModifier
+      baseName: air alarm
   - uid: 7
     components:
+    - type: MetaData
+      name: air alarm (Command)
     - type: Transform
       parent: 1
       rot: -1.5707963267948966 rad
@@ -481,8 +515,16 @@ entities:
     - type: DeviceList
       devices:
       - 533
+      - 246
+      - 443
+    - type: Label
+      currentLabel: Command
+    - type: NameModifier
+      baseName: air alarm
   - uid: 537
     components:
+    - type: MetaData
+      name: air alarm (West Dock)
     - type: Transform
       parent: 1
       rot: -1.5707963267948966 rad
@@ -500,8 +542,15 @@ entities:
       - 594
       - 586
       - 585
+      - 455
+    - type: Label
+      currentLabel: West Dock
+    - type: NameModifier
+      baseName: air alarm
   - uid: 538
     components:
+    - type: MetaData
+      name: air alarm (East Dock)
     - type: Transform
       parent: 1
       pos: 4.5,-1.5
@@ -514,6 +563,11 @@ entities:
       - 341
       - 107
       - 504
+      - 599
+    - type: Label
+      currentLabel: East Dock
+    - type: NameModifier
+      baseName: air alarm
 - proto: AirCanister
   entities:
   - uid: 337
@@ -689,50 +743,98 @@ entities:
   entities:
   - uid: 30
     components:
+    - type: MetaData
+      name: APC (East Dock)
     - type: Transform
       parent: 1
       rot: -1.5707963267948966 rad
       pos: 9.5,-4.5
+    - type: Label
+      currentLabel: East Dock
+    - type: NameModifier
+      baseName: APC
 - proto: APCHyperCapacity
   entities:
   - uid: 24
     components:
+    - type: MetaData
+      name: APC (Security)
     - type: Transform
       parent: 1
       pos: 9.5,-7.5
+    - type: Label
+      currentLabel: Security
+    - type: NameModifier
+      baseName: APC
   - uid: 25
     components:
+    - type: MetaData
+      name: APC (Command)
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
       pos: 1.5,5.5
+    - type: Label
+      currentLabel: Command
+    - type: NameModifier
+      baseName: APC
   - uid: 26
     components:
+    - type: MetaData
+      name: APC (Engineering)
     - type: Transform
       parent: 1
       pos: -3.5,-7.5
+    - type: Label
+      currentLabel: Engineering
+    - type: NameModifier
+      baseName: APC
   - uid: 27
     components:
+    - type: MetaData
+      name: APC (Medbay)
     - type: Transform
       parent: 1
       rot: 1.5707963267948966 rad
       pos: 1.5,-7.5
+    - type: Label
+      currentLabel: Medbay
+    - type: NameModifier
+      baseName: APC
   - uid: 28
     components:
+    - type: MetaData
+      name: APC (Bar)
     - type: Transform
       parent: 1
       pos: 5.5,5.5
+    - type: Label
+      currentLabel: Bar
+    - type: NameModifier
+      baseName: APC
   - uid: 31
     components:
+    - type: MetaData
+      name: APC (West South Dock)
     - type: Transform
       parent: 1
       pos: -3.5,-3.5
+    - type: Label
+      currentLabel: West South Dock
+    - type: NameModifier
+      baseName: APC
   - uid: 415
     components:
+    - type: MetaData
+      name: APC (West North Dock)
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
       pos: -3.5,0.5
+    - type: Label
+      currentLabel: West North Dock
+    - type: NameModifier
+      baseName: APC
 - proto: AtmosDeviceFanDirectional
   entities:
   - uid: 773
@@ -1097,7 +1199,7 @@ entities:
     components:
     - type: Transform
       parent: 1
-      pos: -0.5,0.5
+      pos: -1.5,1.5
   - uid: 98
     components:
     - type: Transform
@@ -1107,7 +1209,7 @@ entities:
     components:
     - type: Transform
       parent: 1
-      pos: -3.5,0.5
+      pos: -1.5,-1.5
   - uid: 100
     components:
     - type: Transform
@@ -1117,7 +1219,7 @@ entities:
     components:
     - type: Transform
       parent: 1
-      pos: -2.5,2.5
+      pos: -1.5,3.5
   - uid: 102
     components:
     - type: Transform
@@ -1137,12 +1239,12 @@ entities:
     components:
     - type: Transform
       parent: 1
-      pos: -0.5,2.5
+      pos: -1.5,-0.5
   - uid: 106
     components:
     - type: Transform
       parent: 1
-      pos: -0.5,1.5
+      pos: -3.5,1.5
   - uid: 108
     components:
     - type: Transform
@@ -1282,7 +1384,7 @@ entities:
     components:
     - type: Transform
       parent: 1
-      pos: -2.5,0.5
+      pos: -3.5,1.5
   - uid: 348
     components:
     - type: Transform
@@ -1307,7 +1409,7 @@ entities:
     components:
     - type: Transform
       parent: 1
-      pos: -2.5,-0.5
+      pos: -2.5,1.5
   - uid: 400
     components:
     - type: Transform
@@ -1906,12 +2008,12 @@ entities:
     components:
     - type: Transform
       parent: 1
-      pos: -2.5,0.5
+      pos: -2.5,1.5
   - uid: 247
     components:
     - type: Transform
       parent: 1
-      pos: -3.5,0.5
+      pos: -3.5,1.5
   - uid: 388
     components:
     - type: Transform
@@ -2533,6 +2635,7 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 537
+      - 3
   - uid: 499
     components:
     - type: Transform
@@ -3304,6 +3407,9 @@ entities:
       parent: 1
       rot: 1.5707963267948966 rad
       pos: 2.5,6.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 7
   - uid: 323
     components:
     - type: Transform
@@ -3355,12 +3461,18 @@ entities:
       parent: 1
       rot: -1.5707963267948966 rad
       pos: 1.5,-0.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 537
   - uid: 610
     components:
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
       pos: 8.5,-10.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 6
 - proto: GasVentPumpInlineDistro
   entities:
   - uid: 320
@@ -3368,6 +3480,9 @@ entities:
     - type: Transform
       parent: 1
       pos: -2.5,-8.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 3
 - proto: GasVentScrubberInlineWaste
   entities:
   - uid: 376
@@ -3375,6 +3490,9 @@ entities:
     - type: Transform
       parent: 1
       pos: 3.5,-8.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 5
 - proto: GasVentScrubberWaste
   entities:
   - uid: 241
@@ -3383,18 +3501,27 @@ entities:
       parent: 1
       rot: 3.141592653589793 rad
       pos: -2.5,-9.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 3
   - uid: 425
     components:
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
       pos: 8.5,-9.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 6
   - uid: 443
     components:
     - type: Transform
       parent: 1
       rot: -1.5707963267948966 rad
       pos: 4.5,6.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 7
   - uid: 585
     components:
     - type: Transform
@@ -3404,8 +3531,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 537
-    - type: AtmosPipeLayers
-      pipeLayer: Secondary
   - uid: 586
     components:
     - type: Transform
@@ -3415,11 +3540,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 537
-    - type: Construction
-      step: 1
-      edge: 0
-    - type: AtmosPipeLayers
-      pipeLayer: Secondary
   - uid: 594
     components:
     - type: Transform
@@ -3429,8 +3549,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 537
-    - type: AtmosPipeLayers
-      pipeLayer: Secondary
   - uid: 597
     components:
     - type: Transform
@@ -3439,8 +3557,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 2
-    - type: AtmosPipeLayers
-      pipeLayer: Secondary
   - uid: 598
     components:
     - type: Transform
@@ -3450,14 +3566,15 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 2
-    - type: AtmosPipeLayers
-      pipeLayer: Secondary
   - uid: 599
     components:
     - type: Transform
       parent: 1
       rot: 3.141592653589793 rad
       pos: 5.5,-5.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 538
 - proto: GeneratorBasic15kW
   entities:
   - uid: 29
@@ -4251,6 +4368,8 @@ entities:
   entities:
   - uid: 587
     components:
+    - type: MetaData
+      name: signal button (Shutters)
     - type: Transform
       parent: 1
       rot: 1.5707963267948966 rad
@@ -4290,6 +4409,10 @@ entities:
         560:
         - - Pressed
           - Toggle
+    - type: Label
+      currentLabel: Shutters
+    - type: NameModifier
+      baseName: signal button
 - proto: SignElectricalMed
   entities:
   - uid: 588
@@ -4336,9 +4459,15 @@ entities:
   entities:
   - uid: 314
     components:
+    - type: MetaData
+      name: advanced SMES (Shuttle)
     - type: Transform
       parent: 1
       pos: -0.5,-11.5
+    - type: Label
+      currentLabel: Shuttle
+    - type: NameModifier
+      baseName: advanced SMES
 - proto: SodaDispenser
   entities:
   - uid: 595
@@ -4390,9 +4519,15 @@ entities:
   entities:
   - uid: 605
     components:
+    - type: MetaData
+      name: substation (Shuttle)
     - type: Transform
       parent: 1
       pos: -0.5,-10.5
+    - type: Label
+      currentLabel: Shuttle
+    - type: NameModifier
+      baseName: substation
 - proto: SuitStorageEVAEmergency
   entities:
   - uid: 606
