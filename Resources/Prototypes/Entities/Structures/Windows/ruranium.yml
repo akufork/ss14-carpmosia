@@ -140,7 +140,7 @@
     - Window
   - type: IconSmooth
     mode: DiagonalPlus # Carpmosia-edit - Better diagonals
-    key: uranium # Carpmosia-edit - Respritening
+    key: window_uranium # Carpmosia-edit - Respritening
     base: state
   - type: Icon
     sprite: Structures/Windows/window-diagonal-uranium-reinf.rsi
