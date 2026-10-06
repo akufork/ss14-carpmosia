@@ -643,7 +643,7 @@
   - type: InventorySlots
   - type: Inventory
     speciesId: hamster
-    templateId: hamster
+    templateId: mothroach # Carpmosia-edit - Smoking mothroaches
     displacements:
       head:
         sizeMaps:
@@ -653,7 +653,7 @@
       mask:
         sizeMaps:
           32:
-            sprite: Mobs/Animals/mothroach/displacement.rsi
+            sprite: _Carpmosia/Mobs/Animals/mothroach/displacement.rsi # Carpmosia-edit - Smoking mothroaches
             state: mask
       suitstorage:
         sizeMaps:

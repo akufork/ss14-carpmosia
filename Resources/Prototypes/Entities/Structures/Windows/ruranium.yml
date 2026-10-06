@@ -28,6 +28,7 @@
             min: 1
             max: 2
   - type: IconSmooth
+    key: window_uranium # Carpmosia-edit - Respritening
     base: ruwindow
   - type: Construction
     graph: Window
@@ -138,8 +139,8 @@
     - Diagonal
     - Window
   - type: IconSmooth
-    mode: Diagonal
-    key: walls
+    mode: DiagonalPlus # Carpmosia-edit - Better diagonals
+    key: window_uranium # Carpmosia-edit - Respritening
     base: state
   - type: Icon
     sprite: Structures/Windows/window-diagonal-uranium-reinf.rsi

@@ -9,4 +9,5 @@
   - type: Icon
     sprite: Structures/Windows/exo-resin.rsi
   - type: IconSmooth
+    key: window_xenoresin # Carpmosia-edit - Respritening
     base: xwindow

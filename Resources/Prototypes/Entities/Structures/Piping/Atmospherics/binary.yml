@@ -710,6 +710,7 @@
         state: pipeBendConnectors # Carpmosia-edit - Heat exchanger layers
         map: [ "enum.PipeVisualLayers.Pipe" ]
       - state: heBend
+        sprite: Structures/Piping/Atmospherics/heatexchanger.rsi # Carpmosia-edit - Heat exchanger layers
         map: [ "enum.SubfloorLayers.FirstLayer" ]
     # Carpmosia-start - Heat exchanger layers
     - type: AtmosPipeLayers

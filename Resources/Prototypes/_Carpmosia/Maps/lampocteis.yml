@@ -4,7 +4,7 @@
   mapPath: /Maps/_Carpmosia/lampocteis.yml
   mapPreview: MapPreviewLampocteis
   minPlayers: 0
-  maxPlayers: 10
+  maxPlayers: 20
   # fallback
   stations:
     Lampocteis:
