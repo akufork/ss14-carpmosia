@@ -29,6 +29,9 @@
             ]
         },
         {
+            "name": "docking-clamp"
+        },
+        {
             "name": "open"
         },
         {
