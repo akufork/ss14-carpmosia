@@ -65,6 +65,9 @@
             ]
         },
         {
+            "name": "panel_closed"
+        },
+        {
             "name": "panel_closing",
             "delays": [
                 [
