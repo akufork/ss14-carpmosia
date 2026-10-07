@@ -486,7 +486,7 @@
   - type: Physics
     canCollide: false
   - type: Sprite
-    offset: 0, -0.25
+    # offset: 0, -0.25 # Carpmosia-edit - Respritening
     drawdepth: SmallObjects
     sprite: Structures/Wallmounts/switch-frame.rsi
     state: grey
