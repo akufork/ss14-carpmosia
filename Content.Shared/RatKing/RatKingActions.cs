@@ -20,3 +20,10 @@ public sealed partial class RatKingOrderActionEvent : InstantActionEvent
     [DataField("type")]
     public RatKingOrderType Type;
 }
+
+// Carpmosia-start - Remove and replace Domain
+public sealed partial class RatKingSacrificeActionEvent : InstantActionEvent
+{
+
+}
+// Carpmosia-end - Remove and replace Domain

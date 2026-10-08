@@ -2797,4 +2797,23 @@
   id: 408
   time: '2026-10-06T07:59:58.0000000+00:00'
   url: https://github.com/carpmosia/carpmosia/pull/625
+- author: Atakku
+  changes:
+  - message: 'On Lampocteis: cleaned up all the piping and used inline scrubbers/vents
+      where viable'
+    type: Tweak
+  id: 409
+  time: '2026-10-06T16:35:33.0000000+00:00'
+  url: https://github.com/carpmosia/carpmosia/pull/603
+- author: imatsoup
+  changes:
+  - message: Temporarily disabled Rat King's Domain ability due to it's interactions
+      with airlocks
+    type: Remove
+  - message: Added Sacrifice ability to Rat King, allowing them to trade rat servants
+      for a heal
+    type: Add
+  id: 410
+  time: '2026-10-06T17:06:28.0000000+00:00'
+  url: https://github.com/carpmosia/carpmosia/pull/585
 Order: -1
