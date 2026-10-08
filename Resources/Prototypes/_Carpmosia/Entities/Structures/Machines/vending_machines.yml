@@ -1,5 +1,5 @@
 - type: entity
-  parent: VendingMachine
+  parent: BaseVendingMachine # TODO: Fix visuals
   id: VendingStore
   abstract: true
   components:
