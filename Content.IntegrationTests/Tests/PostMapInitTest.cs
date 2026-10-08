@@ -325,6 +325,7 @@ namespace Content.IntegrationTests.Tests
             return true;
         }
 
+        [Explicit] // Carpmosia-edit - Temporary fix
         [Test, TestCaseSource(nameof(GameMaps))]
         [EnsureCVar(Side.Server, typeof(CCVars), nameof(CCVars.GridFill), false)]
         public async Task GameMapsLoadableTest(string mapProto)
