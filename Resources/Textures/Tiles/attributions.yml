@@ -57,8 +57,3 @@
   license: "CC-BY-NC-SA-3.0"
   copyright: "taken at commit 0587dd16e28108bdf0b0a28e2caae4319845e861, and recolored by TheShuEd"
   source: "https://github.com/Mojave-Sun/mojave-sun-13"
-
-- files: ["grating-maint.png"]
-  license: "CC-BY-SA-3.0"
-  copyright: "by brainfood for space-station-14, ."
-  source: "https://github.com/space-wizards/space-station-14/pull/12193"
