@@ -25,7 +25,7 @@
         hard: false
   - type: Sprite
     sprite: Structures/Doors/Airlocks/Standard/shuttle-base.rsi
-    noRot: false # Carpmosia-edit - Respritening
+    snapCardinals: false # Carpmosia-edit - Respritening
     layers:
     - state: docking-clamp
       offset: 0, -1
