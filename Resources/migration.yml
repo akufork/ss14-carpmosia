@@ -991,9 +991,11 @@ IronsandStepConcaveCorner: null
 IronsandStep: null
 
 # 2026-07-27
-TurnstileGenpopEnter: EnergyGateGenpopEnter
-TurnstileGenpopLeave: EnergyGateGenpopLeave
-Turnstile: EnergyGate
+# Carpmosia-start - Respritening
+# TurnstileGenpopEnter: EnergyGateGenpopEnter
+# TurnstileGenpopLeave: EnergyGateGenpopLeave
+# Turnstile: EnergyGate
+# Carpmosia-end - Respritening
 MetalDoor: SilverDoor
 MiningWindow: ReinforcedWindow
 MiningWindowDiagonal: ReinforcedWindowDiagonal
