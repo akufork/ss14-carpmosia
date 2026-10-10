@@ -8,19 +8,16 @@
     },
     "states": [
         {
-            "name": "open",
-            "directions": 1
+            "name": "open"
         },
         {
-            "name": "closed",
-            "directions": 1
+            "name": "closed"
         },
         {
             "name": "welded"
         },
         {
             "name": "opening",
-            "directions": 1,
             "delays": [
                 [
                     0.05,
@@ -55,7 +52,6 @@
         },
         {
             "name": "closing",
-            "directions": 1,
             "delays": [
                 [
                     0.05,
