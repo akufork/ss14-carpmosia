@@ -277,7 +277,6 @@
   parent: BaseStationTile
   name: tiles-techmaint3-floor
   sprite: /Textures/Tiles/grating-maint.png
-  variants: 4 # Carpmosia-edit - Respritening
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemGratingMaint
