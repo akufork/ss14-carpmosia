@@ -183,7 +183,8 @@
   name: glass firelock
   components:
     - type: Sprite
-      sprite: Structures/Doors/Airlocks/Glass/firelock-base.rsi
+      sprite: Structures/Doors/Airlocks/Glass/firelock-base.
+      snapCardinals: false # Carpmosia-edit - Respritening
     - type: Occluder
       enabled: false
     - type: Fixtures
